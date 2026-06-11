@@ -1,0 +1,42 @@
+*{
+    padding: 5px;
+    border: 5px;
+    font-size: 30px;
+}
+body{
+    background-color: #02ffff;
+}
+.padre{
+    background-color: #50dd50;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    grid-template-rows: 1fr 5fr 1fr;
+    grid-template-areas: "ca1 ca1 ca1 ca1" "c2 c3 c4 c5" "caja6 caja6 caja6 caja6";
+}
+.c1{
+    background-color: #808080;
+    grid-area: ca1;
+
+}
+/* .c2{
+    background-color: #ca0606;
+    grid-area: c2;
+} */
+.c3{
+    background-color: #08a32f;
+    grid-area: c3;
+    border-radius: 50%;
+}
+/* .c4{
+    background-color: #e235a0;
+    grid-area: c4;
+}
+.c5{
+    background-color: #def705;
+    grid-area: c5;
+} */
+.c6{
+    background-color: #d4c0c0;
+    grid-area: caja6;
+}
